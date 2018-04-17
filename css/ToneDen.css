@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "Mercury";
+  src: url("Mercury.otf") format("opentype");
+  font-family: "gotham";
+  src: url("gothambold.ttf") format("truetype");
+  font-family: "gothamlight";
+  src: url("gothamlight.ttf") format("truetype");
+  font-family: "gothammedium";
+  src: url("gothammedium") format("truetype"); }
+body {
+  background-color: #161616;
+  color: white; }
+  body hr {
+    background-color: white; }
+  body nav {
+    font-size: 13px;
+    font-weight: 500; }
+    body nav .tc {
+      color: #777BF9; }
+    body nav .tc:hover {
+      color: #777BF9; }
+    body nav ul {
+      text-decoration: none;
+      position: relative; }
+      body nav ul li a {
+        color: #d9d9d9;
+        transform: translateY(0);
+        transition: all 0.2s ease-in-out; }
+      body nav ul li a:hover {
+        color: #00C4FF;
+        text-decoration: none;
+        transform: translateY(3px);
+        transition: all 0.2s ease-in-out; }
+      body nav ul li a:active {
+        color: #00C4FF;
+        text-decoration: none; }
+    body nav span {
+      cursor: pointer;
+      color: white;
+      letter-spacing: 2px; }
+    body nav img {
+      cursor: pointer; }
+    body nav .dropdown-item {
+      background-color: #161616;
+      color: white; }
+  body .hero1 img {
+    width: 100%;
+    height: 105%;
+    margin: 0;
+    padding-bottom: 0rem; }
+  body .hero1 .pad {
+    padding-top: 10rem; }
+  body .hero1 button {
+    background-color: #777BF9;
+    color: #d9d9d9;
+    border-radius: 3px;
+    border-width: 0rem;
+    cursor: pointer;
+    font-weight: 500; }
+  body .hero1 button:focus {
+    outline: none; }
+  body .hero1 h1 {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    font-size: 2.8rem;
+    font-family: "Mercury";
+    color: #d9d9d9; }
+  body .hero1 h5 {
+    font-weight: 400; }
+  body .hero1 span {
+    color: #00FFAC; }
+  body .hero2 {
+    position: relative;
+    background-color: #101010;
+    height: 110vh;
+    width: 100vw;
+    padding-bottom: 10rem; }
+    body .hero2 .main {
+      padding-left: 0;
+      padding-right: 0; }
+    body .hero2 .main img {
+      width: 103%;
+      height: auto;
+      padding-top: 9rem;
+      z-index: 100;
+      position: relative;
+      transform: translateY(0);
+      transition: all 0.35s ease-in-out; }
+    body .hero2 .pad {
+      padding-top: 15rem;
+      padding-left: 0rem;
+      padding-right: 2rem; }
+    body .hero2 button {
+      background-color: #777BF9;
+      color: #d9d9d9;
+      border-radius: 2.5px;
+      border-width: 0rem;
+      cursor: pointer;
+      font-size: 0.8rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      transform: translateY(0);
+      transition: all 0.3s ease-in-out;
+      font-weight: 500; }
+    body .hero2 button:hover {
+      transform: translateY(-3px);
+      transition: all 0.3s ease-in-out; }
+    body .hero2 button:focus {
+      outline: none; }
+    body .hero2 h3 {
+      margin-bottom: 0rem;
+      padding-bottom: 0rem;
+      font-size: 2rem;
+      font-family: "Mercury";
+      font-weight: 400; }
+    body .hero2 h5 {
+      font-weight: 400;
+      font-size: 1rem;
+      padding-right: 3rem;
+      color: #d9d9d9;
+      line-height: 1.6rem;
+      letter-spacing: 1px; }
+    body .hero2 span {
+      color: #00FFAC; }
+    body .hero2 .background img {
+      height: 75%;
+      width: 70%;
+      position: absolute;
+      top: 5rem;
+      left: 37.7rem;
+      z-index: 0;
+      transition: all 0.35s ease-in-out;
+      transform: translatex(0); }
+  body .hero2:hover .background img {
+    height: 75%;
+    width: 70%;
+    position: absolute;
+    top: 5rem;
+    left: 37.5rem;
+    z-index: 0;
+    transition: all 0.35s ease-in-out;
+    transform: translatex(0.9rem); }
+  body .hero2:hover .main img {
+    width: 103%;
+    height: auto;
+    padding-top: 9rem;
+    z-index: 100;
+    position: relative;
+    transform: translateY(-1rem);
+    transition: all 0.35s ease-in-out; }
+  body .hero3 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
+    body .hero3 p {
+      padding-left: 18rem;
+      padding-right: 18rem;
+      font-size: 1.02rem;
+      letter-spacing: 0.02rem;
+      color: #d9d9d9; }
+    body .hero3 h2 {
+      font-family: "Mercury";
+      padding-bottom: 1rem; }
+    body .hero3 span {
+      color: #00FFAC; }
+  body .hero4 {
+    margin-bottom: 2rem;
+    height: 100vh;
+    width: 100vw; }
+    body .hero4 img {
+      height: 340px;
+      width: 300px;
+      border-radius: 4px; }
+    body .hero4 .pic:hover .pic1 img {
+      position: relative;
+      z-index: 10;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(-5px); }
+    body .hero4 .pic:hover .pic2 img {
+      position: relative;
+      z-index: 10;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(-5px); }
+    body .hero4 .pic:hover .pic3 img {
+      position: relative;
+      z-index: 10;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(-5px); }
+    body .hero4 .pic:hover .picb1 img {
+      position: absolute;
+      z-index: 1;
+      top: 6.5rem;
+      left: -5rem;
+      transition: all 0.35s ease-in-out;
+      transform: translatex(-5px); }
+    body .hero4 .pic:hover .picb2 img {
+      position: absolute;
+      z-index: 1;
+      top: -9rem;
+      left: 6rem;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(5px); }
+    body .hero4 .pic:hover .picb3 img {
+      position: absolute;
+      z-index: 1;
+      top: 12rem;
+      right: -18rem;
+      height: 200;
+      width: 200px;
+      transition: all 0.35s ease-in-out;
+      transform: translatex(5px); }
+    body .hero4 .pic:hover .pict {
+      width: 241px;
+      text-align: center;
+      position: absolute;
+      z-index: 100;
+      top: 16rem;
+      left: 3rem;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(-5px); }
+    body .hero4 .pic1 img {
+      position: relative;
+      z-index: 10;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(0); }
+    body .hero4 .pic2 img {
+      position: relative;
+      z-index: 10;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(0); }
+    body .hero4 .pic3 img {
+      position: relative;
+      z-index: 10;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(0); }
+    body .hero4 .pict {
+      width: 241px;
+      text-align: center;
+      position: absolute;
+      z-index: 100;
+      top: 16rem;
+      left: 3rem;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(0); }
+    body .hero4 .picb1 img {
+      position: absolute;
+      z-index: 1;
+      top: 6.5rem;
+      left: -5rem;
+      transition: all 0.35s ease-in-out;
+      transform: translatex(0); }
+    body .hero4 .picb2 img {
+      position: absolute;
+      z-index: 1;
+      top: -9rem;
+      left: 6rem;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(0); }
+    body .hero4 .picb3 img {
+      position: absolute;
+      z-index: 1;
+      top: 12rem;
+      right: -18rem;
+      height: 200;
+      width: 200px;
+      transition: all 0.35s ease-in-out;
+      transform: translatex(0); }
+    body .hero4 span {
+      color: #00FFAC; }
+  body .hero5 {
+    margin-bottom: 16rem; }
+    body .hero5 .pic img {
+      height: 362px;
+      width: 540px;
+      position: relative;
+      z-index: 10; }
+    body .hero5 .pad {
+      padding-top: 5rem;
+      padding-left: 0rem;
+      padding-right: 2rem; }
+    body .hero5 h3 {
+      font-family: "Mercury";
+      font-size: 2.1rem; }
+      body .hero5 h3 span {
+        color: #00FFAC; }
+    body .hero5 h5 {
+      padding-right: 0rem;
+      font-size: 1.1rem;
+      color: #cccccc; }
+      body .hero5 h5 span {
+        color: #00FFAC; }
+    body .hero5 button {
+      margin-top: 1rem;
+      background: linear-gradient(-180deg, #00CAFF 0%, #008BFF 100%);
+      color: #d9d9d9;
+      border-radius: 2.5px;
+      border-width: 0rem;
+      cursor: pointer;
+      font-size: 0.8rem;
+      padding: 1.2rem 4.8rem;
+      transform: translateY(0);
+      transition: all 0.3s ease-in-out;
+      font-weight: 500; }
+    body .hero5 button:hover {
+      transform: translateY(-3px);
+      transition: all 0.3s ease-in-out; }
+    body .hero5 .picb img {
+      position: absolute;
+      top: -6rem;
+      left: -12rem;
+      z-index: 0;
+      width: 156%; }
+  body .hero6 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    position: relative; }
+    body .hero6 img {
+      height: 120px;
+      width: auto;
+      position: absolute;
+      top: -7rem;
+      left: 28rem; }
+    body .hero6 h5 {
+      color: #bfbfbf; }
+    body .hero6 button {
+      background-color: #777BF9;
+      color: #d9d9d9;
+      border-radius: 2.5px;
+      border-width: 0rem;
+      cursor: pointer;
+      font-size: 0.8rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      transform: translateY(0);
+      transition: all 0.3s ease-in-out;
+      font-weight: 500; }
+    body .hero6 button:hover {
+      transform: translateY(-3px);
+      transition: all 0.3s ease-in-out; }
+  body .hero7 {
+    margin-top: 4rem;
+    margin-bottom: 3rem; }
+    body .hero7 h5 {
+      padding-bottom: 1rem;
+      font-size: 1rem;
+      letter-spacing: 0.08rem; }
+    body .hero7 ul {
+      line-height: 3rem;
+      font-size: 0.9rem; }
+    body .hero7 li {
+      font-size: 0.8rem;
+      color: #bfbfbf; }
+    body .hero7 li:hover {
+      cursor: pointer;
+      color: white;
+      transition: all 0.35s ease-in-out; }
+    body .hero7 .heading h4 {
+      font-family: "Mercury";
+      font-size: 0.9rem; }
+    body .hero7 .heading p {
+      font-size: 0.8rem;
+      color: #bfbfbf; }
+    body .hero7 .heading span {
+      font-size: 0.8rem;
+      letter-spacing: 0.08rem;
+      color: #bfbfbf; }
+    body .hero7 .heading h5 {
+      padding-bottom: 2rem; }
+    body .hero7 span {
+      cursor: pointer; }
+  body footer ul {
+    text-decoration: none;
+    position: relative; }
+    body footer ul li a {
+      color: #d9d9d9; }
+    body footer ul li a:hover {
+      text-decoration: none;
+      transition: all 0.35s ease-in-out; }
+  body footer .links a {
+    color: #d9d9d9; }
+
+/*# sourceMappingURL=ToneDen.css.map */
