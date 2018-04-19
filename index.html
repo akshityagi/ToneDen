@@ -10,29 +10,25 @@
 	</head>
 
 	<body>
-		<nav class="navbar container navbar-expand-lg align-item-center justify-content-between my-2">
+		<nav class="navbar navbar-expand-lg justify-content-between align-items-center" style="background-color: #161616";>
+			<div class="d-flex align-items-center justify-content-between">
+			  <img src="assets/images/logo.svg" href="#">
+			  <span class="navbar-brand px-3" href="#">TONEDEN</span>
+			</div>
 			<div>
-				<img src="assets/images/logo.svg" class="navbar-brand mx-0" href="#" height="40" width="40">
-				<span>TONEDEN</span>
-			</div>	
-			    <ul class="navbar-nav">
-				    <li class="nav-item mx-3">
-				    	<a class="nav-link" href="#">Why ToneDen?</a>
-				    </li>
-					<li class="nav-item mx-3">
-				    	<a class="nav-link" href="#">Made For You</a>
-				    </li>
-				    <li class="nav-item mx-3">
-				    	<a class="nav-link" href="#">Success Stories</a>
-				    </li>
-				    <li class="nav-item mx-3">
-				        <a class="nav-link" href="#">Sign In</a>
-				    </li>
-				    <li class="nav-item mx-3">
-				        <a class="nav-link tc" href="#">Create A Free Account</a>
-				    </li>
-	   			</ul>
-	  		</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon fa fa-align-justify "></span>
+			  	</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav">
+				    <a class="nav-item nav-link mx-3" href="#"><b>Why ToneDen?</b></a>
+				    <a class="nav-item nav-link mx-3" href="#"><b>Made For You</b></a>
+				    <a class="nav-item nav-link mx-3" href="#"><b>Success Stories</b></a>
+				    <a class="nav-item nav-link mx-3" href="#"><b>Sign In</b></a>
+				    <a class="nav-item nav-link tc mx-3" href="#"><b>Create A Free Account</b></a>
+			    </div>
+			</div>
 		</nav>
 
 		<div>
@@ -72,8 +68,10 @@
 
 		<div>
 			<div class="container hero3">
-				<h2><span>Own</span> social marketing</h2>
-				<p>Whether you’re a big deal or a big deal in the making, ToneDen is here to help. We’ve got you.</p>
+				<div class="col-md-12">
+					<h2><span>Own</span> social marketing</h2>
+					<p>Whether you’re a big deal or a big deal in the making, ToneDen is<br/> here to help. We’ve got you.</p>
+				</div>
 			</div>
 		</div>
 
@@ -81,7 +79,7 @@
 			<div class="container hero4 px-5">
 				<div class="row">
 					<div class="pic">
-						<div class="col-md-4 pic1">
+						<div class="col-4 pic1">
 							<img src="assets/images/pic1.webp">
 							<div class="pict">
 								<h5>for <span>Creators</span></h5>
@@ -90,10 +88,11 @@
 							<div class="picb1">
 								<img src="assets/images/pic1b.svg">
 							</div>
+							<div class="grad"></div>
 						</div>
 					</div>
 					<div class="pic">
-						<div class="col-md-4 pic2">
+						<div class="col-4 pic2">
 							<img src="assets/images/pic2.webp">
 							<div class="pict">
 								<h5>for <span>Live Events</span></h5>
@@ -102,10 +101,11 @@
 							<div class="picb2">
 								<img src="assets/images/pic2b.svg">
 							</div>
+							<div class="grad"></div>
 						</div>
 					</div>
 					<div class="pic">
-						<div class="col-md-4 pic3">
+						<div class="col-4 pic3">
 							<img src="assets/images/pic3.webp">
 							<div class="pict">
 								<h5>for <span>E-Commerce</span></h5>
@@ -114,6 +114,7 @@
 							<div class="picb3">
 								<img src="assets/images/pic3b.svg">
 							</div>
+							<div class="grad"></div>
 						</div>
 					</div>
 				</div>		
@@ -138,83 +139,80 @@
 				</div>
 			</div>
 		</div>
-
-		<hr>
 		
 		<div>
-			<div class="container hero6">
-				<div class="row">
-					<div class="col-md-7">
-						<h3>Get started for free.</h3>
-						<h5>It takes less than a minute to become a marketing superhero</h5>
-					</div>
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-3">
-						<button class="px-5 py-3">CREATE A FREE ACCOUNT</button>
-					</div>
-					<img src="assets/images/wolf.webp">
+			<div class="container-fluid br align-items-center justify-content-between">
+				<div class="container hero6">
+					<div class="row">
+						<div class="col-md-7">
+							<h3><b>Get started for free.</b></h3>
+							<h5>It takes less than a minute to become a marketing superhero</h5>
+						</div>
+						<div class="col-md-2">
+						</div>
+						<div class="col-md-3">
+							<button class="py-3">CREATE A FREE ACCOUNT</button>
+						</div>
+						<img src="assets/images/wolf.webp">
+					</div>	
 				</div>	
 			</div>
 		</div>
-		
-		<hr>
 
 		<div>
-			<div class="container hero7">
-				<div class="row">
-					<div class="col-md-3">
-						<h5>ABOUT US</h5>
-						<ul class="list-unstyled">
-							<li>We're Hiring</li>
-							<li>Our Team</li>
-							<li>Our Customers</li>
-							<li>Our Blog</li>
-						</ul>
-					</div>		
-					<div class="col-md-3">
-						<h5>WHAT WE DO</h5>
-						<ul class="list-unstyled">
-							<li>Why ToneDen?</li>
-							<li>Advertising</li>
-							<li>Messaging</li>
-							<li>Growing</li>
-						</ul>
-					</div>	
-					<div class="col-md-3">
-						<h5>RESOURCES</h5>
-						<ul class="list-unstyled">
-							<li>For Creators</li>
-							<li>For Event Marketers</li>
-							<li>For E-commerce Brands</li>
-							<li>Help Center</li>
-						</ul>
-					</div>	
-					<div class="col-md-3 heading">
-						<h5>FROM THE BLOG</h5>
-						<h4>The Future Of Marketing With Facebook Messenger</h5>
-						<p>See how Messenger is quickly becoming the best way for you to reach and engage your audience.</p>
-						<span>READ MORE</span>
-					</div>					
+			<div class="container-fluid br">
+				<div class="container hero7">
+					<div class="row">
+						<div class="col-md-3">
+							<h5><b>ABOUT US</b></h5>
+							<ul class="list-unstyled">
+								<li><b>We're Hiring</b></li>
+								<li><b>Our Team</b></li>
+								<li><b>Our Customers</b></li>
+								<li><b>Our Blog</b></li>
+							</ul>
+						</div>		
+						<div class="col-md-3">
+							<h5><b>WHAT WE DO</b></h5>
+							<ul class="list-unstyled">
+								<li><b>Why ToneDen?</b></li>
+								<li><b>Advertising</b></li>
+								<li><b>Messaging</b></li>
+								<li><b>Growing</b></li>
+							</ul>
+						</div>	
+						<div class="col-md-3">
+							<h5><b>RESOURCES</b></h5>
+							<ul class="list-unstyled">
+								<li><b>For Creators</b></li>
+								<li><b>For Event Marketers</b></li>
+								<li><b>For E-commerce Brands</b></li>
+								<li><b>Help Center</b></li>
+							</ul>
+						</div>	
+						<div class="col-md-3 heading">
+							<h5><b>FROM THE BLOG</b></h5>
+							<h4>The Future Of Marketing With Facebook Messenger</h4>
+							<p>See how Messenger is quickly becoming the best way for you to reach and engage your audience.</p>
+							<span>READ MORE</span>
+						</div>
+					</div>				
 				</div>	
 			</div>
 		</div>	
-		
-		<hr>
 
-		<footer class="container links d-flex align-items-center justify-content-between list-unstyled mb-0">
-		    <div>
-		        <ul class="links d-flex list-unstyled">
-			        <li><a href="#" class="px-3 py-1 mx-2 nav-links">Privacy</a></li>
-			        <li><a href="#" class="px-3 py-1 mx-2 nav-links">Terms</a></li>
-			        <li><a href="#" class="px-3 py-1 mx-2 nav-links">Contact Us</a></li>
-		    	</ul> 
-		    </div>
-			<div class="links d-flex" >
-		        <a href="#" class="fa fa-facebook mx-5"></a> 
-	    		<a href="#" class="fa fa-twitter mx-5"></a>
-        		<a href="#" class="fa fa-linkedin mx-5"></a>
-        		<a href="#" class="fa fa-facebook-messenger mx-5"></a>
+		<footer class="links br">
+			<div class="container d-flex align-items-center justify-content-between my-4">
+			    <div>
+				    <a href="#" class="mx-4 nav-links">Privacy</a>
+				    <a href="#" class="mx-4 nav-links">Terms</a>
+				    <a href="#" class="mx-4 nav-links">Contact Us</a>	
+			    </div>
+				<div>
+			        <a href="#" class="fa fa-facebook mx-4"></a> 
+		    		<a href="#" class="fa fa-twitter mx-4"></a>
+	        		<a href="#" class="fa fa-linkedin mx-4"></a>
+				</div>	
 			</div>			
     	</footer>
 </body>
